@@ -8,14 +8,14 @@
 #'variables x, written as "y ~ x"
 #'@param data dataset which contains the variables specified in formula
 #'
-#'@return a list containing \textit{fit}, the model object, 
-#'and \textit{summarystats}, a dataframe of summary stats.
+#'@return a list containing fit, the model object, 
+#'and summarystats, a dataframe of summary stats.
 #'
 #'@details
 #'The \code{oneway} function is essentially a wrapper for the \code{lm} 
 #'function, but returns instead a list containing the \code{lm} object 
 #'and a dataframe of summary stats. Additionally, plot, print, and summary
-#'methods are provided under the class \textit{oneway}
+#'methods are provided under the class oneway
 #'
 #'@seealso
 #'\link[stats]{lm}

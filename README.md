@@ -1,6 +1,7 @@
 
 # oneway
 
+![](oneway.png)
 
 The goal of oneway is to run one way analysis of variance tests on data sets.
 
