@@ -24,6 +24,9 @@ This is a basic example which shows you how to solve a common problem:
 
 ``` r
 library(oneway)
-## basic example code
+aov1 <- oneway(mpg ~ cyl, mtcars)
+print(aov1)
+plot(aov1)
+summary(aov1)
 ```
 
