@@ -9,7 +9,12 @@ The goal of oneway is to run one way analysis of variance tests on data sets.
 You can install the released version of oneway from github:
 
 ``` r
-install.packages("oneway")
+if(!require("remotes"")){
+  install.packages("remotes")
+  library(remotes)
+}
+
+remotes::install_github("marginal-latte/oneway")
 ```
 
 ## Example
